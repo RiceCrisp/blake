@@ -1,0 +1,5 @@
+{
+  "title": "D3 Bar Graph",
+  "date": "2021-10-22",
+  "excerpt": "React component that generates a responsive bar graph via the D3 library."
+}

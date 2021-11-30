@@ -1,0 +1,17 @@
+.post-info {
+  border-bottom: 1px solid var(--global-border-color);
+  margin-bottom: var(--global-default-margin);
+}
+
+.title {
+  margin-bottom: 5px;
+}
+
+.date {
+  opacity: 0.5;
+  margin-bottom: 5px;
+}
+
+.excerpt {
+  opacity: 0.5;
+}

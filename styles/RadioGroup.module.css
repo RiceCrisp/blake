@@ -1,0 +1,16 @@
+.radio-group {
+  border: 1px solid var(--global-border-color);
+  padding: 10px;
+}
+
+.group label {
+  margin-left: 5px;
+}
+
+.group input, .group label {
+  cursor: pointer;
+}
+
+.group + .group {
+  margin-top: 10px;
+}

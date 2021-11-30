@@ -1,0 +1,155 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'Inter';
+    src: url('/Inter-VF.woff2') format('woff2 supports variations'),
+      url('/Inter-VF.woff2') format('woff2-variations');
+    font-weight: 300 700;
+    font-style: normal;
+    font-display: swap;
+  }
+}
+
+:root {
+  --global-site-padding: 20px;
+  --global-default-margin: 30px;
+  --global-border-radius: 4px;
+  --color-primary: #0055ff;
+  --color-background: #fff;
+  --color-background-light: #eee;
+  --color-border: #eee;
+  --color-text: #000;
+}
+
+a {
+  color: var(--color-primary);
+}
+
+h1 {
+  font-size: 2rem;
+  line-height: 1.3em;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 2rem;
+  line-height: 1.5em;
+}
+
+h3 {
+  font-size: 1.75rem;
+  line-height: 1.5em;
+}
+
+h4 {
+  font-size: 1.5rem;
+  line-height: 1.5em;
+}
+
+p, li {
+  line-height: 1.5em;
+}
+
+ul {
+  list-style: disc;
+  margin-left: 30px;
+}
+
+ol {
+  list-style: decimal;
+  margin: 30px;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, ol, img {
+  margin-bottom: var(--global-default-margin);
+}
+
+.clickable {
+  position: relative;
+}
+
+.clickable a::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+/* :root {
+  --global-site-padding: 20px;
+  --global-default-margin: 30px;
+  --global-border-radius: 4px;
+  --color-primary: #0055ff;
+  --color-background: #fff;
+  --color-background-light: #eee;
+  --color-border: #eee;
+  --color-text: #000;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('/Inter-VF.woff2') format('woff2 supports variations'),
+    url('/Inter-VF.woff2') format('woff2-variations');
+  font-weight: 300 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  background: var(--color-background);
+  color: var(--color-text);
+}
+
+button {
+  padding: 10px;
+  border: 1px solid var(--global-border-color);
+  background: #eee;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: 0.2s;
+}
+
+button:hover {
+  background: #ccc;
+}
+
+.container {
+  padding: 0 var(--global-site-padding);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.main {
+  padding: 50px 0;
+}
+
+button {
+  background: var(--color-background-light);
+  padding: 10px;
+  border-radius: var(--global-border-radius);
+}
+
+.button {
+  display: inline-block;
+  text-decoration: none;
+  background: var(--color-background-light);
+  padding: 10px;
+  border-radius: var(--global-border-radius);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-background: #000;
+    --color-background-light: #222;
+    --color-border: #222;
+    --color-text: #fff;
+    --color-primary: #0077ff;
+  }
+} */

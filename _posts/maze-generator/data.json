@@ -1,0 +1,5 @@
+{
+  "title": "Maze Generator",
+  "date": "2021-10-22",
+  "excerpt": "Simple animated maze generator using a \"depth-first search\" algorithm."
+}

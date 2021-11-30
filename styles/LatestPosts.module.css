@@ -1,0 +1,13 @@
+.preview-list {
+  list-style: none;
+  margin-left: 0;
+}
+
+.preview {
+  border: 1px solid var(--global-border-color);
+  padding: 20px;
+}
+
+.preview > *:last-child {
+  margin-bottom: 0;
+}
